@@ -1,0 +1,134 @@
+/*=============================================================*/
+/*科室列表css*/
+.deplist ul li { background:#fff url(../imgs/pic_spe.png) no-repeat 10px center; border-bottom:1px solid #dfdfdf; width:100%; position:relative;}
+.deplist ul li a:link, .deplist ul li a:visited { display:block; color:#444; position:absolute; width:100%; height:100%; top:0; left:0;}
+.deplist ul li .dep_txt { float:left; margin-left:22%; width:68%;}
+.deplist ul li:after { content:'\f105'; position:absolute; font-family: FontAwesome; font-size:2.0rem; color:#00bc03; right:5%; top:30%; }
+	.dep_txt span { display:block; margin:2% 0; font-size:0.8rem; padding:1% 0;}
+	.dep_txt span.title { font-weight:bold;}
+	.dep_txt span.nums { color:#00bc03; font-weight:bold;}
+	.dep_txt span.phone { font-weight:bold; }
+	.dep_txt span.desc { font-size:0.4rem; word-wrap:break-word;}
+
+.tab.active, .tab:hover { border-color:#5FB878 !important; color:#5FB878 !important;}
+
+/*选择预约医生css*/
+.docwrap { background:#fff !important;}
+.tab-custom li { width:45%;}
+.desc { width:100%; font-size:0.8rem;}
+.desc .pic { width:100%; margin:0 auto; height:6rem;}
+.desc .pic img { width:100%; display:block; height:100%;}
+.desc-head { padding:1.2rem 0; margin:0 1.2rem;}
+.desc-head a { color:#DA0707;}
+.desc-head span { display:block; line-height:24px;}
+.content { margin:0 1.2rem; line-height:3.6vh;}
+
+/*专家预约 weekkly */
+.week_container {
+	display:-webkit-box;
+	display:box;
+	overflow:hidden;
+	width:100% !important;
+}
+.week-item {
+	margin:10px;
+	-webkit-box-flex:1;
+	box-flex:1;	
+	color:#959595;
+	text-align:center;
+}
+.day_container {
+	overflow:hidden;
+	width:100%;	
+	font-size:0;
+	padding-bottom:10px;
+	border-bottom:1px solid #f0f0f0;
+}
+.day-item {
+	display:inline-block;
+	width:14.28%;
+	line-height:36px;
+	text-align:center;	
+	font-size:1.0rem;
+}
+.day-item > span { color:#959595;}
+.day-item > span.active {
+	border-radius:50px;	
+	background-color:#00bc03;
+	color:#fff !important;
+	width:36px; height:36px;
+	line-height:36px;
+	text-align:center;
+}
+.day-item > span.curday {
+	color:#00bc03;
+}
+.placepart { padding:10px 20px; float:left;}
+.placepart .pdate{ color:#f57f17; padding:4px 8px; }
+.placework { float:right;}
+.placework .pwork{ background:#f4fbf3; font-size:0.8rem; padding:3px 12px; border:1px solid #eaeaea; border-radius:3px; }
+.querylist { width:100%;}
+.querylist p { margin:0 auto; width:60%; position:absolute; top:40%; left:20%;}
+.querylist p img { display:block; width:100%;}
+.querylist p span { display:block; text-align:center; padding:5px 0;}
+.querylist ul { border-bottom:1px solid #e2e9e8;}
+.querylist ul li { position:relative; padding:4% 0 4% 5%;}
+.querylist ul li:after { position:absolute; content:'\f105'; font-family: FontAwesome; font-size:2.0rem; color:#00bc03; right:5%; top:30%; opacity:0.5;}
+.querylist ul li a { position:absolute; width:100%; height:100%; left:0; top:0; display:block;}
+.querylist ul li div { display:inline-block; font-size:0;}
+.querylist ul li div.logo { width:50px; height:50px; position:relative; }
+.querylist ul li div.logo span { border-radius:100%; width:100%; height:100%; overflow:hidden; position:absolute; text-align:center;}
+.querylist ul li div.logo img { width:100%; margin-top:-5px;}
+.querylist ul li div.info { font-size:0.6rem; vertical-align:top; margin-left:5%;}
+.querylist ul li div.divline { position:absolute; height:1px; overflow:hidden; right:0; width:80%; background:#e2e9e8; bottom:0;}
+.querylist ul li div.overleft { background:#f57f17; position:absolute; right:20%; top:40%; color:#fff; font-size:0.6rem; padding:0 1%; border-radius:3px;}
+	div.info h2 { font-size:1rem; font-weight:normal;}
+	div.info span { display:block; padding:10px 0;}
+	div.info span.inline-block { display:inline-block; vertical-align:top; margin:0 4px 0 10px; border:1px solid #00bc03; border-radius:5px; }
+		.reset { border:1px solid #989898 !important; color:#989898 !important;}
+		.day_part { border:1px solid #00bc03; color:#00bc03; padding:2px 5px !important; font-size:0.8rem;}
+	div.info .titname { font-size:0.8rem;}
+	div.info .cost { font-size:0.8rem; color:#D55704;}
+	div.info .cost i { font-style:normal; vertical-align:top;}
+
+
+/*iScroll*/
+.wrapper {
+	z-index: 1;	top: 45px; bottom: 48px; left: 0;	width: 100%; background: #ccc; overflow: hidden;
+}
+header { background:none;}
+#scroller {
+	position: absolute;
+	z-index: 1;	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 100%; -webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+#scroller ul {
+	list-style: none;
+	padding: 0;	margin: 0;
+	width: 100%; text-align: left;
+}
+
+.footer {
+	position: absolute;
+	z-index: 9;	bottom: 0; left: 0;	width: 100%;
+	text-align:center; margin:0 auto;
+}
+.footer p {
+	font-size:14px;
+	line-height:28px;	
+}
+.footer p a:link, .footer p a:visited { color:#00bc03;}

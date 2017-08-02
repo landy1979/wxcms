@@ -1,0 +1,17 @@
+body { margin:0; padding:0; font-size:12px; background:#fff; color:#fff; font-family:SimSun,Microsoft YaHei;}
+ul,li { list-style-type:none;}
+form,div,p,ul,li,dl,dt,dd{ border:0px; margin:0px; padding:0px; }
+img { border:0 none;}
+h1,h2,h3,h4,h5,h6 { margin:0; padding:0;}
+a:link, a:visited { font-size:12px; text-decoration:none; color:#444;}
+a:hover { color:#e62f01; text-decoration:underline;}
+a:link, a:visited { font-size:12px;}
+.cls { clear:both;}
+
+#tabbar { padding-left:20px; background:url(../images/cat_bg.jpg) repeat-x; height:32px; line-height:32px; color:#205c7a; font-size:14px;}
+#tabbar span { font-weight:bold;}
+.menu-div { margin:0 auto; background:#fff; color:#000; }
+.menu-div > ul > li { line-height:20px; cursor:pointer; background:url(../images/menu_libg.jpg) repeat-x; font-size:12px; margin-top:1px;}
+.menu-div > ul > li span { display:block; color:#205c7a; background:url(../images/li_arrow.jpg) no-repeat 0 0; padding-left:30px; border-top:1px solid #749bbc; border-bottom:1px solid #749bbc;}
+.smenu { margin-left:20px;}
+.smenu > li { background:url(../images/menu_arrow.gif) no-repeat 0 8px; padding-left:20px; line-height:24px;}

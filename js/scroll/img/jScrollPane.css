@@ -1,0 +1,65 @@
+@charset "gb2312";
+.jScrollPaneContainer {position: relative;overflow: hidden;z-index: 1;}
+
+.jScrollPaneTrack {position: absolute;cursor: pointer;right: 0;top: 0;height: 100%;background: #aaa;}
+.jScrollPaneDrag {position: absolute;background: #666;cursor: pointer;overflow: hidden;}
+.jScrollPaneDragTop {position: absolute;top: 0;left: 0;overflow: hidden;}
+.jScrollPaneDragBottom {position: absolute;bottom: 0;left: 0;overflow: hidden;}
+a.jScrollArrowUp {display: block;position: absolute;z-index: 1;top: 0;right: 0;text-indent: -2000px;overflow: hidden;
+	/*background-color: #666;*/height: 14px;
+}
+a.jScrollArrowUp:hover {
+	/*background-color: #f60;*/
+}
+
+a.jScrollArrowDown {display: block;position: absolute;z-index: 1;bottom: 0;right: 0;text-indent: -2000px;overflow: hidden;
+	/*background-color: #666;*/height: 14px;
+}
+a.jScrollArrowDown:hover {
+	/*background-color: #f60;*/
+}
+a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
+	/*background-color: #f00;*/
+}
+
+
+/*//////////////////////////////*/
+/*新闻动态详细，展厅，人才招聘*/
+.scroll-pane {
+margin:0 auto;
+	width: 481px;
+	height: 440px;
+	overflow: auto;
+	font-size:12px;
+	line-height:24px;
+	background:url(../cpzq/line.gif) no-repeat 478px 0px;
+}
+.scroll-pane ul li{width:459px;  float:left;}
+
+
+
+/*///////////////////////////////*/
+a.jScrollArrowUp {
+height:14px;
+background: url(../images/scroll_arrow_up.gif)  no-repeat 0 0;
+}
+a.jScrollArrowUp:hover {
+background-position: 0 0;
+}
+a.jScrollArrowDown {
+height:14px;
+background: url(../images/scroll_arrow_down.gif) no-repeat 0 0;
+}
+a.jScrollArrowDown:hover {
+	background-position: 0 0;
+}
+a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
+	background-position: 0 0;
+}
+
+.jScrollPaneTrack {
+	background: #fff;
+}
+.jScrollPaneDrag {
+	 background-color:#33322d
+}/*原：background: #33322d url(../images/smsdown/scroll_bar.gif) no-repeat 50% 50%;*/

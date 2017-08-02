@@ -1,0 +1,26 @@
+body { margin:0; padding:0; font-size:12px; font-family:"Microsoft Yahei"; background:#32acf6;}
+ul,li { list-style-type:none;}
+form,input,div,ul,li,dl,dt,dd{ border:0px; margin:0px; padding:0px; }
+img { border:0 none;}
+h1,h2,h3,h4,h5,h6 { margin:0; padding:0;}
+a:link, a:visited {text-decoration:none; color:#444;}
+a:hover { color:#f3581c;}
+.cls { clear:both;}
+.none { display:none;}
+
+
+/*login============================================================*/
+.bb { position:fixed; bottom:0; width:100%;}
+.login-head { width:100%; padding:20px 0px; background:#2796d9;}
+.head-body { width:1000px; margin:0 auto; color:#fff;}
+.login-body { width:1000px; margin:0 auto; position:relative;}
+	.body-img { display:inline-block;}
+	.body-form { display:inline-block; vertical-align:top; margin-left:75px; color:#fff; background:url(../images/box-body.png) no-repeat; width:379px; height:344px; margin-top:100px;}
+	.body-form form { margin:0 40px;}
+	.body-form h2 { font-weight:normal; padding:20px 0px;}
+	.form-group { padding:12px 0px; position:relative;}
+	.form-group i { position:absolute; margin:8px 0 0 5px;}
+		.form-input { background:#fff; padding:10px 30px; width:230px;}
+		.code { width:80px;}
+		.btn { border-radius:5px; color:#fff; padding:10px 0px; cursor:pointer;}
+		.btn-primary { background:#29bb15; width:290px;}

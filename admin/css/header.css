@@ -1,0 +1,13 @@
+.header-div { width:100%; height:59px; color:#000;}
+.logo { float:left;}
+.login-info { color:#000; text-align:right; margin-right:20px; height:30px; line-height:30px; word-spacing:2px;}
+.login-info span:after { content:' '; background:url(../images/icons2.png) no-repeat 0px -13px; width:16px; position:absolute; left:-20px; height:17px; margin-top:6px;}
+.login-info span { display:inline-block; position:relative;}
+.login-info span i { font-style:normal; color:#ffae11;}
+.login-info a:link, .login-info a:visited { color:#0c00ff; display:inline-block; margin-left:20px;}
+.login-info a:hover{ color:#f1732e;}
+.mbg { background:url(../images/mbg.gif) repeat-x; height:30px; width:100%;}
+.mbg .menu { width:30%; height:30px; overflow:hidden; line-height:30px; margin-left:20px;}
+.mbg .menu span { display:inline-block; width:78px; height:30px; overflow:hidden; color:#003295; text-align:center; cursor:pointer;}
+.mbg .menu span.cur { background:url(../images/menu_over.jpg) no-repeat center; color:#fff;}
+.mbg .menu span:hover { background:url(../images/menu_over.jpg) no-repeat center; color:#fff;}

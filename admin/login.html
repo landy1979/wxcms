@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>微信内容后台管理系统</title>
+<link href="css/login.css" rel="stylesheet">
+<script src="../js/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+
+<div class="bb"><img src="images/bg.jpg"></div>
+
+<div class="login-head">
+	<div class="head-body">
+  	<h2>微信内容后台管理系统</h2>
+    <div></div>
+  </div>
+</div>
+
+<div class="login-body">
+	<div class="body-img"><img src="images/admin_03.png"></div>
+  <div class="body-form">
+  <form name="form" id="form" method="post">
+  <h2>用户登录</h2>
+  <div class="form-group">
+	  <i><img src="images/ico_user.jpg" width="22" height="22"></i>
+    <input type="text" name="u" id="u" class="form-input" placeholder="请输入您的用户名！">
+  </div>
+  <div class="form-group">
+  	<i><img src="images/ico_lock.jpg" width="22" height="22"></i>
+    <input type="password" name="p" id="p" class="form-input" placeholder="请输入您的登陆密码！">
+  </div>
+  <div class="form-group">
+  	<i><img src="images/ico_lock.jpg" width="22" height="22"></i>
+    <input type="text" name="c" id="c" class="form-input code" placeholder="验证码！" maxlength="4">
+    <span class="codeImg"><img onClick="this.src=this.src+'?'" style="cursor:pointer;" src="inc/code.php" valign="top" id="codeImg"></span>
+  </div>
+  <div class="form-group">
+  	<input type="button" id="btn_login" class="btn btn-primary" value="登 录">
+  </div>
+  </form>
+  </div>
+</div>
+
+<script src="js/jquery.login.js"></script>
+<script src="../js/layer/layer.js"></script>
+<script src="../js/jquery.form.js"></script>
+<script>
+var wh = $(window).height();
+var objHeight = parseFloat($(".login-body").height()) + parseFloat($(".login-head").height());
+$(".login-body").css("top",(parseFloat(wh) - parseFloat(objHeight)) / 2);
+</script>
+</body>
+</html>

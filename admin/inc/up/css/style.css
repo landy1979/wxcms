@@ -1,0 +1,22 @@
+/* CSS Document */
+
+body { margin: 0px; padding:0px; font-size:12px; }
+form,div,ul,li,dl,dt,dd{ border:0px; margin:0px; padding:0px; }
+li{list-style-type:none;}
+img{border:0px;}
+a{text-decoration: none; outline:none;}
+a:link,a:visited {font-size: 12px;color: #000000;}
+a:hover {font-size: 12px;color: #ff0000;}
+
+.cls{ clear:both; height:1px; overflow:hidden;}
+
+.d1{ float:left; width:270px; text-align:left; }
+.d2{ float:left; width:300px; text-align:right; margin-left:-250px; padding-top:2px;  }
+.d3{ float:left; text-align:left; padding-top:2px; padding-left:10px;}
+/* ===========上传文本框美化========= */
+.input_text{ border:0px;width:250px; outline:none; border:1px solid #ddd; padding:3px 5px; }
+.input_file{ border:0px;width:250px; opacity:0; margin-left:-250px; filter:alpha(opacity=0);}
+.input_liulan img{ cursor:pointer; }
+/* ===========上传文本框美化 Over========= */
+
+
